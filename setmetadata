@@ -1,0 +1,1 @@
+gsutil -m setmeta -h "Cache-Control:public" gs://myawesomepicsbucket/*
