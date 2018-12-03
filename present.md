@@ -90,10 +90,13 @@ https://cloud.google.com/cdn/
 ??
 
 Helps you with: 
- - need to be closer to user to respond faster 
- - and distribute load geographically ( some do Anycast )
+ - closer to user to respond faster 
+ 
+?? - distribute load geographically ( some do Anycast )
    -> larger surface for DDoS attacks
-- and offload origin servers from SSL burden
+   
+ - and offload origin servers 
+ 
  
 
 
@@ -131,9 +134,12 @@ what issues solves . // wrap up
 
 with litteraly just one click you can have:
 
- - need to be closer to user to respond faster 
- - and distribute load geographically 
- - and offload origin servers from SSL burden
+ - closer to user to respond faster 
+ 
+?? - distribute load geographically ( some do Anycast )
+   -> larger surface for DDoS attacks
+   
+ - and offload origin servers 
 
 
 
