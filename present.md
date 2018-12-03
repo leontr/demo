@@ -25,8 +25,9 @@ Mainframes -> PC -> Heavy Client -> Thin Clinet/Fat servers -> network got faste
 
 Issues: 
  - need to be closer to user to respond faster 
- - and distribute load geographically 
- - and offload origin servers from SSL burden
+ - and distribute load geographically ( Anycast )
+   -> larger surface for DDoS attacks
+- and offload origin servers from SSL burden
  
 ---  6'
 ??
@@ -50,7 +51,12 @@ let me tell you a story.  i had joined the company only by a few days when...
  What's a CDN is and how it Works
 
 ---  5'
+Many cdn's out there, here's some:
 
+  Cedix report: 
+  https://www.cedexis.com/google-reports/
+  
+---  5'
   Demo: 
   
   enable CDN on GCP LB + GCS
@@ -61,9 +67,12 @@ let me tell you a story.  i had joined the company only by a few days when...
 
 what issues solves . // wrap up
 
+with litteraly just one click you can have:
+
  - need to be closer to user to respond faster 
  - and distribute load geographically 
  - and offload origin servers from SSL burden
+
 
 
 ---  10
