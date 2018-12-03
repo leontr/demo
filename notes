@@ -1,0 +1,17 @@
+# set metadata public/private
+
+gsutil -m setmeta -h "Cache-Control:public" gs://gs://myawesomepicsbucket/*
+
+gsutil -m setmeta -h "Cache-Control:private" gs://myawesomepicsbucket/*
+
+
+# test
+
+for i in {1..300}; do curl -o /dev/null -s -w "Connect: %{time_connect} TTFB: %{time_starttransfer} Tot: %{time_total} \n" http://35.244.130.161/IMG_0664.jpg; done 
+
+for i in {1..300}; do curl -o /dev/null -s -w "Connect: %{time_connect} TTFB: %{time_starttransfer} Tot: %{time_total} \n" http://35.244.130.161/nocdn/IMG_0664.jpg; done 
+
+# test w apache bench 
+
+ab -n 500 -c 10 http://35.244.130.161/IMG_0649.jpg 
+ab -n 500 -c 10 http://35.244.130.161/nocnd/IMG_0649.jpg
