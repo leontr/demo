@@ -70,7 +70,7 @@ then
 
 
 
----  5'
+---  1'
 
 ??
 
@@ -78,12 +78,17 @@ then
 
 
 
+ A Content Delivery Network is a network or caches at the edge
 
 
----  1'
+
+
+
+
+---  3'
 ??
 
-Issues: 
+Helps you with: 
  - need to be closer to user to respond faster 
  - and distribute load geographically ( some do Anycast )
    -> larger surface for DDoS attacks
@@ -93,7 +98,7 @@ Issues:
 
 
 
----  5'
+---  2'
 
 Many cdn's out there, here's some:
 
@@ -106,8 +111,18 @@ Many cdn's out there, here's some:
   Demo: 
   
   enable CDN on GCP LB + GCS
+
+
+      show box to tick 
+
+      show stackriver latency graphs ??
+
+      show graph
+
+      https://medium.com/google-cloud/how-good-is-google-clouds-cdn-e181a16f0404 
   
----  2'
+
+---  1'
 
 ?? 
 
@@ -121,7 +136,7 @@ with litteraly just one click you can have:
 
 
 
----  10
+---  5'
 
  Q&A 
  
