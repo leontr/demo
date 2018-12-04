@@ -141,11 +141,18 @@ Many cdn's out there, here's some:
 ---  5'
  
   Demo: 
+ 
   
-  enable CDN on GCP LB + GCS
+        so remeber when I told you that we had to rewrite the pointers to our static content, now hosted by a CND?
+        Turns out, if we were on goog platform this would not have been necessary. You can enable Goog CDN configuring the LoadBalancer for any given backend (and this can be a pool of servers as a GCS bucket! ) 
   
-  so remeber when I told you that we had to rewrite the pointers to our static content, now hosted by a CND?
-  Turns out, if we were on goog platform this would not have been necessary. You can enable Goog CDN configuring the LoadBalancer for any given backend (and this can be a pool of servers as a GCS bucket! ) 
+Goog Clou CDN is .. 
+??? describe
+
+<< add pics of CND networ >>
+
+
+enable CDN on GCP LB + GCS 
   
   All you need to do to activate the CDN is
 
