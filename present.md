@@ -92,7 +92,7 @@ https://www.keycdn.com/support/how-does-a-cdn-work
 
 
 
- What's a CDN is and how it Works
+ What's a CDN 
 
 
       GC CDN leverages Ggle's globally distributed edge points of presence to accelerate content delivery for websites and applications served out of Google Compute Engine and Google Cloud Storage. 
@@ -121,6 +121,8 @@ https://cloud.google.com/cdn/
 
 ---  3'
 ???
+
+
 
 In specific terms, CDN technology should provide the following primary benefits to a business: 
 
@@ -178,9 +180,12 @@ CND can be PUSH or PULL
  >>  https://www.keycdn.com/support/how-does-a-cdn-work
 
 
+ Basically a key-value store 
 
 
->> Basically a key-value store 
+- Cache hits, misses, fill, and egress    https://cloud.google.com/cdn/docs/overview
+
+
 
 
 cache in diffrent ways:
@@ -194,12 +199,25 @@ cache in diffrent ways:
          
          ** warnning ** Excluding components from cache keys can cause Cloud CDN to serve content intended for one user to another. Before            excluding a component, ensure your backend service's responses do not vary based on that component.
          
-   --  cookie based caching 
+   --  cookie based caching   (maybe omit, G dont support)
          Depending what you are trying to achieve, you can cache assets based on a particular cookie. For example, if you set cookies              based on which language the visitor defines when they visit your site, then the resources required to display the site in a                particular language can be cached. This is done by adding the name of your cookie variable in the Cache Key Cookie feature in a            pull zone’s advanced features.
          https://www.keycdn.com/support/cookie-based-caching
-    --  user device based caching
+   
+   --  user device based caching  (maybe omit, G dont support)
         https://www.keycdn.com/support/user-device-based-caching 
        
+       
+ Size
+ 
+ Cloud CDN enforces a maximum size that varies depending on whether the origin server supports byte range requests:
+
+5 TB (5,497,558,138,880 bytes) if the origin server supports byte range requests
+10 MB (10,485,760 bytes) if the origin server does not support byte range requests
+Any response with a body larger than the maximum size is not cached.
+ 
+ https://www.keycdn.com/support/byte-range-requests
+
+
 
 ---  2'
 ???
