@@ -128,6 +128,8 @@ Many cdn's out there, here's some:
       show stackriver latency graphs ??
 
       show graph
+      
+      https://github.com/leontr/demo/blob/master/Screen%20Shot%202018-12-04%20at%201.23.58%20pm.png . 
 
       https://medium.com/google-cloud/how-good-is-google-clouds-cdn-e181a16f0404 
   
