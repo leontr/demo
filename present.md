@@ -4,7 +4,7 @@ TITLE
 
 
 ---  1.5'
-
+???
 
 Who is this guy? 
 
@@ -14,7 +14,7 @@ What is he going to talk us about?
 
 
 ---  2.5'
-??
+???
 
 
 have you ever been this guy?  << pics of loadin image >>
@@ -60,7 +60,7 @@ but there is something else that can be done and is it can be surprisingly easy 
 
 
 ---  3'
-??
+???
 
 let me tell you a story.  I had joined the company only by a few days when...
   
@@ -85,8 +85,7 @@ could have opted for autoscaling the EC2s but there was not really the need for 
 
 
 ---  1'
-
-??
+???
 
 >>>>
 https://www.keycdn.com/support/how-does-a-cdn-work
@@ -121,7 +120,7 @@ https://cloud.google.com/cdn/
 
 
 ---  3'
-??
+???
 
 In specific terms, CDN technology should provide the following primary benefits to a business: 
 
@@ -173,7 +172,7 @@ In specific terms, CDN technology should provide the following primary benefits 
  
  
 ---
-
+???
 CND can be PUSH or PULL
 
  >>  https://www.keycdn.com/support/how-does-a-cdn-work
@@ -201,7 +200,7 @@ cache in diffrent ways:
        
 
 ---  2'
-
+???
 Not All CDNs Are Created Equal
 
 
@@ -212,8 +211,15 @@ Not All CDNs Are Created Equal
  
 
 ---  5'
- 
+???
   Demo: 
+  
+  set up: 
+      - creted 2 buckets on gcs, made both public, put in both a the few same pics
+      - modified the metadata for the files in one of them so they were cacheble (left the other 'private') :
+            gsutil -m setmeta -h "Cache-Control:public" gs://gs://myawesomepicsbucket/*
+            
+      - created a LB, created a backend for each bucket. for one ive enabled CND, and not for the other
  
 
  
