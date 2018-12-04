@@ -96,6 +96,13 @@ https://www.keycdn.com/support/how-does-a-cdn-work
  What's a CDN is and how it Works
 
 
+      GC CDN leverages Ggle's globally distributed edge points of presence to accelerate content delivery for websites and applications served out of Google Compute Engine and Google Cloud Storage. 
+      Cloud CDN lowers network latency, 
+      offloads origins, 
+      and reduces serving costs. 
+      Once you've set up HTTP(S) Load Balancing, simply enable Cloud CDN with a single checkbox.
+
+
 A content delivery network or content distribution network (CDN) is a globally distributed network of proxy servers deployed in multiple data centers.
 
 
@@ -153,6 +160,7 @@ In specific terms, CDN technology should provide the following primary benefits 
 
 CND can be PUSH or PULL
 
+ >>  https://www.keycdn.com/support/how-does-a-cdn-work
 
 
 
@@ -170,10 +178,9 @@ cache in diffrent ways:
    --  cookie based caching 
          Depending what you are trying to achieve, you can cache assets based on a particular cookie. For example, if you set cookies              based on which language the visitor defines when they visit your site, then the resources required to display the site in a                particular language can be cached. This is done by adding the name of your cookie variable in the Cache Key Cookie feature in a            pull zone’s advanced features.
          https://www.keycdn.com/support/cookie-based-caching
-
-
-
-
+    --  user device based caching
+        https://www.keycdn.com/support/user-device-based-caching 
+       
 
 ---  2'
 
