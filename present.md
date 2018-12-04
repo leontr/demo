@@ -131,7 +131,7 @@ In specific terms, CDN technology should provide the following primary benefits 
 
 
 
-?? put following together
+?? put following together  - 
 
 >>> https://www.keycdn.com/support/cdn-architecture
 
@@ -155,6 +155,22 @@ In specific terms, CDN technology should provide the following primary benefits 
 
              - and offload origin servers 
  
+        GCP CDN:
+        > Anycast
+               Serve all your content from a single IP address with low latency worldwide.
+        > Invalidation
+               Take down cached content in minutes.
+        > http2
+               Supports the new, more efficient HTTP/2 protocol in addition to HTTP/1.0 and HTTP/1.1.
+        > https (ssl/tls)
+               Provide your own SSL/TLS certificate to secure your content using a domain name of your choice.
+        > logging
+               Integrates with Stackdriver Logging to give you detailed information about each cache hit and miss.
+        > Origins
+               Serves content originating from Compute Engine VMs and Cloud Storage buckets. You can even mix and match multiple origins                   behind a single domain. External origin servers are not supported.
+ 
+ 
+ 
  
 ---
 
@@ -164,6 +180,8 @@ CND can be PUSH or PULL
 
 
 
+
+>> Basically a key-value store 
 
 
 cache in diffrent ways:
