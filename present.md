@@ -188,9 +188,11 @@ cache in diffrent ways:
    some rules for the content to be cached :    https://cloud.google.com/cdn/docs/caching  
 
 
-   --  scheme based caching   
+   --  scheme based caching   / Cache key https://cloud.google.com/cdn/docs/best-practices  https://cloud.google.com/cdn/docs/using-cache-keys
          If your site delivers the same asset over HTTP and HTTPS, enabling the Cache Key Scheme option will allow you to cache the asset          for both use-case
          https://www.keycdn.com/support/scheme-based-caching
+         
+         ** warnning ** Excluding components from cache keys can cause Cloud CDN to serve content intended for one user to another. Before            excluding a component, ensure your backend service's responses do not vary based on that component.
          
    --  cookie based caching 
          Depending what you are trying to achieve, you can cache assets based on a particular cookie. For example, if you set cookies              based on which language the visitor defines when they visit your site, then the resources required to display the site in a                particular language can be cached. This is done by adding the name of your cookie variable in the Cache Key Cookie feature in a            pull zone’s advanced features.
