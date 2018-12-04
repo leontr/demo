@@ -27,9 +27,14 @@ people expetcs FAST resonsiveness from ANY online content, from ANY app.
 It doesnt matter if you are selling the coolest sneakers, if you have the best pasta recipes or your tax advices are the best:  
 there is little more irritating than a site that feel slugghis, than an app that feels like it's taking time off of you life (it might actually want to do that, but fast enough so you won't question it!)   ( show raging at pc gif)  
 
-    under XXX ms, ppl feels is an uniterrupted flow
-    under YYY ms, ppl attention is still enganged
-    over  ZZZ  ms, you lost them man. 
+
+      <= 100ms – user feels the system is reacting instantaneously
+      <= 1 second – user feels their flow of thought is uninterrupted
+      <= 10 seconds – user’s attention will stay on task
+
+          under XXX ms, ppl feels is an uniterrupted flow
+          under YYY ms, ppl attention is still enganged
+          over  ZZZ  ms, you lost them man. 
 
 
 So we need to serve content fast. 
