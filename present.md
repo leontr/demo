@@ -91,6 +91,8 @@ CDNs became an essential tool to successfully conduct business online for one ma
 
 In specific terms, CDN technology should provide the following primary benefits to a business: 
 
+
+
 Performance 
       why?
 
