@@ -92,9 +92,15 @@ CDNs became an essential tool to successfully conduct business online for one ma
 In specific terms, CDN technology should provide the following primary benefits to a business: 
 
 Performance 
-Availability 
-Security
+      why?
 
+Availability 
+      why? 
+
+Security
+      Why? 
+      
+      
 
 https://www.akamai.com/uk/en/cdn/what-are-the-benefits-of-a-cdn.jsp
 
