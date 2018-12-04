@@ -166,8 +166,10 @@ cache in diffrent ways:
    --  scheme based caching   
          If your site delivers the same asset over HTTP and HTTPS, enabling the Cache Key Scheme option will allow you to cache the asset          for both use-case
          https://www.keycdn.com/support/scheme-based-caching
-   -- 
-    
+         
+   --  cookie based caching 
+         Depending what you are trying to achieve, you can cache assets based on a particular cookie. For example, if you set cookies              based on which language the visitor defines when they visit your site, then the resources required to display the site in a                particular language can be cached. This is done by adding the name of your cookie variable in the Cache Key Cookie feature in a            pull zone’s advanced features.
+         https://www.keycdn.com/support/cookie-based-caching
 
 
 
