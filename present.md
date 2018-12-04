@@ -83,7 +83,8 @@ then
 
 
 
- A Content Delivery Network is a network or caches at the edge
+https://www.akamai.com/uk/en/cdn/what-are-the-benefits-of-a-cdn.jsp
+https://www.globaldots.com/9-benefits-using-cdn/
 
 
 https://cloud.google.com/cdn/   
