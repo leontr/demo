@@ -28,6 +28,10 @@ It doesnt matter if you are selling the coolest sneakers, if you have the best p
 there is little more irritating than a site that feel slugghis, than an app that feels like it's taking time off of you life (it might actually want to do that, but fast enough so you won't question it!)   ( show raging at pc gif)  
 
 
+
+    >>> 40% of people abandon a website that takes more than 3 seconds to load. – Kissmetrics
+
+
       <= 100ms – user feels the system is reacting instantaneously
       <= 1 second – user feels their flow of thought is uninterrupted
       <= 10 seconds – user’s attention will stay on task
@@ -60,7 +64,7 @@ but there is something else that can be done and is it can be surprisingly easy 
 
 let me tell you a story.  I had joined the company only by a few days when...
   
- BAD EXAMPLE  ??
+ BAD EXAMPLE  ??  MAYBE fasten up flight deck would be better ?
 
        fb -> got us hammered. could not cope well with the incoming traffic
        
@@ -84,25 +88,22 @@ could have opted for autoscaling the EC2s but there was not really the need for 
 
 ??
 
+>>>>
+https://www.keycdn.com/support/how-does-a-cdn-work
+
+
+
  What's a CDN is and how it Works
+
+
+A content delivery network or content distribution network (CDN) is a globally distributed network of proxy servers deployed in multiple data centers.
 
 
 CDNs became an essential tool to successfully conduct business online for one main reason: the Internet was not originally architected to do all of the amazing things that it does today! It simply wasn’t built to handle the demands of massive amount of data, live high definition video, flash sales, and large downloads that people expect today. CDNs were specifically built to make the Internet work better, deliver media at scale, and to enable all of the connected experiences you can imagine.
 
-In specific terms, CDN technology should provide the following primary benefits to a business: 
 
+<< show pics of CND network >> 
 
-
-Performance 
-      why?
-
-Availability 
-      why? 
-
-Security
-      Why? 
-      
-      
 
 https://www.akamai.com/uk/en/cdn/what-are-the-benefits-of-a-cdn.jsp
 
@@ -112,27 +113,72 @@ https://www.globaldots.com/9-benefits-using-cdn/
 https://cloud.google.com/cdn/   
 
 
-
-
 ---  3'
 ??
 
-Helps you with: 
- - closer to user to respond faster 
+In specific terms, CDN technology should provide the following primary benefits to a business: 
+
+
+<< show pic of all req. to orging vs ditributed to pop >>
+
+
+
+
+?? put following together
+
+>>> https://www.keycdn.com/support/cdn-architecture
+
+
+   Performance 
+         why?
+
+   Availability 
+         why? 
+
+   Security
+         Why? 
+      
+      
+
+            Helps you with: 
+             - closer to user to respond faster 
+
+            ?? - distribute load geographically ( some do Anycast )
+               -> larger surface for DDoS attacks
+
+             - and offload origin servers 
  
-?? - distribute load geographically ( some do Anycast )
-   -> larger surface for DDoS attacks
-   
- - and offload origin servers 
  
- 
+---
+
+CND can be PUSH or PULL
+
+
+
+
+
+
+cache in diffrent ways:
+
+   some rules for the content to be cached :    https://cloud.google.com/cdn/docs/caching  
+
+
+   --  scheme based caching   
+         If your site delivers the same asset over HTTP and HTTPS, enabling the Cache Key Scheme option will allow you to cache the asset          for both use-case
+         https://www.keycdn.com/support/scheme-based-caching
+   -- 
+    
+
 
 
 
 
 ---  2'
 
-Many cdn's out there, here's some:
+Not All CDNs Are Created Equal
+
+
+
 
   Cedix report: 
   https://www.cedexis.com/google-reports/
@@ -141,6 +187,8 @@ Many cdn's out there, here's some:
 ---  5'
  
   Demo: 
+ 
+
  
   
         so remeber when I told you that we had to rewrite the pointers to our static content, now hosted by a CND?
@@ -161,6 +209,7 @@ enable CDN on GCP LB + GCS
       Enjoy low latency
   
  ??? decide if to show tests from 3 boxes in diverese parts of the world or show stackdriver graph on different latencies with or without cdn
+  ?? check these times!! https://www.keycdn.com/blog/website-latency
 
       show stackriver latency graphs ??
 
