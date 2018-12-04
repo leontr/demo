@@ -62,7 +62,9 @@ let me tell you a story.  I had joined the company only by a few days when...
   
  BAD EXAMPLE  ??
 
-       fb -> got us hammered    (( see also tax lems story))
+       fb -> got us hammered. could not cope well with the incoming traffic
+       
+       (( see also tax lems story . -- tey where rising too many instaces in autoscaling. common solution could have been add a reverse proxy and modify the code to point static content to the CDN. With CND on the goog LB and path matching, this was done all at LB level w/o code changes and with one click))
   
         -- our site arch.
     
@@ -70,8 +72,11 @@ let me tell you a story.  I had joined the company only by a few days when...
            EC2 . EC2 
               RDS
 
+
 then
     -- > CDN - with akamai 
+    
+could have opted for autoscaling the EC2s but there was not really the need for it, CDN seemd better option in terms of costs (and was already adopted company wide, just needed to add a context to it  - and rewrite the links to static content to point to cdn)
 
 
 
