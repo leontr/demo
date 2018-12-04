@@ -153,7 +153,7 @@ Many cdn's out there, here's some:
       define some path rules
       Enjoy low latency
   
-  
+ ??? decide if to show tests from 3 boxes in diverese parts of the world or show stackdriver graph on different latencies with or without cdn
 
       show stackriver latency graphs ??
 
