@@ -175,7 +175,11 @@ In specific terms, CDN technology should provide the following primary benefits 
  
 ---
 ???
-CND can be PUSH or PULL
+
+MEAT TO BE EXTRATED : https://www.incapsula.com/cdn-guide/what-is-cdn-how-it-works.html   
+
+
+CND can be PUSH or PULL ??
 
  >>  https://www.keycdn.com/support/how-does-a-cdn-work
 
