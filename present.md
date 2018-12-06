@@ -180,6 +180,9 @@ In specific terms, CDN technology should provide the following primary benefits 
 MEAT TO BE EXTRATED : https://www.incapsula.com/cdn-guide/what-is-cdn-how-it-works.html   
 
 
+DNS OR AMYCAST .  https://anuragbhatia.com/2014/03/networking/different-cdn-technologies-dns-vs-anycast-routing/ . 
+
+
 CND can be PUSH or PULL ??
 
  >>  https://www.keycdn.com/support/how-does-a-cdn-work
