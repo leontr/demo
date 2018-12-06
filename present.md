@@ -129,7 +129,8 @@ In specific terms, CDN technology should provide the following primary benefits 
 
 << show pic of all req. to orging vs ditributed to pop >>
 
-
+ 
+##### . https://engineering.videoblocks.com/web-architecture-101-a3224e126947
 
 
 ?? put following together  - 
